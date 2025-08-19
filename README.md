@@ -12,11 +12,17 @@ I am also writing this repo using Termux Native Desktop with Code-Oss
 First of all you will need to install Termux by clicking on link or using F-Droid  
 **Installing Necessary pkg and Dependencies**  
 After that you will need to install some important pgks in Termux and the command needed to install them are given below, you will just need to copy paste them into Termux   
-   ```pkg update && pkg upgrade```  
+```
+   pkg update && pkg upgrade
+```  
 This cmd will update your Termux Internal Packages to latest version  
-   ```pkg insxtall x11-repo```   
+```
+pkg insxtall x11-repo
+```   
 This cmd will install X11-Repository that will allow you to run GUI with the help of an app named Termux:X11   
-   `pkg install termux-x11-nightly`   
+```
+pkg install termux-x11-nightly
+```   
 This cmd will install the Basic packages needed to run Termux:X11   
    `pkg install tur-repo`    
 This cmd will install 'tur-repo' or 'Termux-User Repository' which contains many popular applications built specifically for Termux like Code-oss(De-Microfted Vs-Code for Termux),GIMP(A Photo editing/manupulation Tool),Chromium(De-Google Chrome but very lightweight),etc   
